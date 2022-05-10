@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./Highscores/styles.css" />
+
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>JavaScript Quiz App</title>
+  </head>
+
+  <body id="body">
+    <!-- QUIZ  -->
+
+    <div id="quiz-container">
+      <div id="questions-box" class="questionsDiv">
+        <h1 id="question">
+          Welcome to the Quiz App of Jean Victoire Good Luck!
+        </h1>
+
+        <div id="quiz-question" class="answer-container">
+          <div class="answer" value="1"></div>
+          <br />
+          <div class="answer" value="2"></div>
+          <br />
+          <div class="answer" value="3"></div>
+          <br />
+          <div class="answer" value="4"></div>
+        </div>
+      </div>
+
+      <div class="wrapper">
+        <h3 class="quiz-page"></h3>
+        <!-- enter name -->
+        <input
+          id="enter-name"
+          type="text"
+          name="name-input"
+          placeholder="Type Your Name"
+        />
+        <input id="submitBtn" type="submit" value="Submit Quiz to Highscores" />
+      </div>
+      <!-- BUTTONS -->
+
+      <div class="buttons">
+        <div id="startButton">
+          <button id="start">Start Quiz</button>
+        </div>
+      </div>
+    </div>
+    <div id="timer-div">
+      <h2 id="countdown"></h2>
+      <h2 id="scoreBoard"></h2>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="cc">
+      Made with ❤️️ by Jean Victoire &copy; Copyright 2022
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

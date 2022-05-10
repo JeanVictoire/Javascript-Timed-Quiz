@@ -1,2 +1,10 @@
-# challenge-module-04
-challenge-module-04
+# challenge-module-04 Javascript-Timed-Quiz
+
+Timed-Javascript-Quiz
+
+When the user loads the page, you are greeted with a container where the quiz questions and choices will be. It is timed, So you will have a total of 30 seconds to complete the quiz. There are 4 questions in total.
+
+When you click on the start button, the timer will start counting down from 30 and your first question will appear with the option of 4 choices to choose from. Each question you answer correctly, your score will be incremented by 1. Each time you answer incorrectly, 5 seconds will be deducted from your time. If the time runs out before you can finish, you won't be given the opportunity to answer the remaining questions.
+
+the quiz will clear and you will be able to store your results with your name and later if you would like to take the quiz again, you can compare the results from other attempts.
+Good Luck!
