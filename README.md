@@ -1,4 +1,4 @@
-# challenge-module-04 Javascript-Timed-Quiz
+#Javascript-Timed-Quiz
 
 Timed-Javascript-Quiz
 
@@ -8,3 +8,5 @@ When you click on the start button, the timer will start counting down from 30 a
 
 the quiz will clear and you will be able to store your results with your name and later if you would like to take the quiz again, you can compare the results from other attempts.
 Good Luck!
+
+![Screenshot_1](https://user-images.githubusercontent.com/100246393/168652734-92f40fbf-01e8-4255-97f2-4057c66733fa.png)
